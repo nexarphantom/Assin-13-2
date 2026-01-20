@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Inter", sans-serif;
+}
+.header-section, .container{
+    width: 100%;
+    background-color: #1A0B2E;
+}
+
+.container, .host-section{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.navbar h1{
+    color: white;
+}
+.linear{
+    color:#FB09B4;
+}
+.navbar, .menu{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.menu{
+    gap: 32px;
+    color: #FFFFFF;
+}
+.navbar ul li{
+    font-size: 1rem;
+}
+.common-btn{
+    padding:   12px 16px 12px 16px;
+    border: none;
+    border-radius: 10000px;
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.common-btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.subscribe{
+    padding:   12px 16px 12px 16px;
+    border: 3px solid #00FF88;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    background-color: transparent;
+}
+.display-flex, .b2{
+    display: flex;
+}
+
+/* hero section style */
+
+.hero-bg{
+    background-image: url(assets/hero-bg.png);
+    min-height: 760px;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-center{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-circle{
+    width: 320px;
+    height: 320px;
+    background-image: url(assets/hero-circle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-circle img{
+    width: 120px;
+}
+
+.hero-center h2{
+    font-size: 3.5rem;
+}
+
+.hero-center p{
+    max-width: 550px;
+    font-size: 1rem;
+}
+.btn-container{
+    display: flex;
+    gap: 15px;
+}
+/* Featured Episodes */
+.Featured{
+    width: 100%;
+    background-color: #1A0B2E;
+    padding: 100px 0;
+    height: 646px;
+
+}
+
+
+.feature-container h1{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3.5rem;
+    padding-bottom: 16px;
+}
+.feature-container p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 100;
+}
+#title{
+text-align:center;
+text-align: justify;
+border-bottom: 1px solid gray; 
+}
+.review{
+    display: flex;
+    flex-direction: column;
+}
+.review img{
+    width: 30px;
+    height: 30px;
+}
+.count{
+    display: flex;
+    align-items: center;
+}
+.img-container{
+    justify-content: space-between;
+    gap: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr)
+}
+.img-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.count h3{
+    font-size: 60px;
+    color: #00FF88;
+}
+.review p{
+    color: #FFFFFF;
+}
+.review{
+    text-align: center;
+    align-items: center;
+}
+
+.techwave{
+    background-color: #230E3D;
+    width: 100%;
+    height: 1000px;
+}
+.tech-container{
+    max-width: 1450px;
+    margin: 0 auto;
+
+}
+.tech-container h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.tech-card-container>*{
+    background-color: #351165;
+    padding: 40px;
+    color: #FFFFFF;
+    border-radius: 40px;
+    text-align: justify;
+} 
+
+
+
+.a1{
+    grid-area: headphone;
+}
+.a2{
+    grid-area: phone;
+}
+.a3{
+    grid-area: global;
+}
+.a4{
+    grid-area: power;
+}
+.a5{
+    grid-area: book;
+}
+.tech-card-container{
+    padding-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "headphone phone phone"
+    "headphone global global"
+    "power power book";
+}
+.Episodes{
+    width: 100%;
+    background-color: #1A0B2E;
+    height: 1276px;
+}
+.episodes-section{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.episodes-section h3{
+    color: #FFFFFF;
+    font-size: 48px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.video-card{
+    background-color: #250D44;
+    width: 380px;
+    height: 440px;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+.video-container{
+    margin-top: 40px;
+}
+.video-card iframe{
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 20px;
+
+}
+.video-title{
+    padding: 24px;
+    justify-content: space-between;
+}
+.video-card h4{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.video-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.time img {
+    width: 16.6px;
+    height: 16.6px;
+}
+.time h6{
+    font-size: 1rem;
+    color: #00FF88;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.host-section h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 120px;
+    text-align: center;
+}
+.host-card{
+    width: 100%px;
+    height: 280px;
+    background-color: #351165;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.title-container h3{
+    font-size: 2rem;
+    padding-bottom: 16px;
+}
+.title-container p{
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+.logo-container{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-container img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* .footer-bg{
+    background-image: url(assets/footer-bg.png);
+    width: 1450px;
+    height: 412px;
+
+} */
+ #footer-img{
+    background-image: url(assets/footer-bg.png);
+    height: 412px;
+    width: 100%;
+ }
