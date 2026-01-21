@@ -41,6 +41,15 @@
 .navbar ul li{
     font-size: 1rem;
 }
+.menu-icon img{
+    height: 24px;
+    width: 24px;
+}
+
+.menu-icon {
+    display: none;
+}
+
 .common-btn{
     padding:   12px 16px 12px 16px;
     border: none;
@@ -394,4 +403,152 @@ border-bottom: 1px solid gray;
     text-align: center;
     color: #FFFFFF;
     font-size: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .menu {
+        display: none;
+    }
+
+    .navbar .common-btn {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+.hero-bg {
+    min-height: auto;
+    padding: 80px 0;
+  }
+
+  .hero-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-circle img {
+    width: 80px;
+  }
+
+.hero-center p {
+    padding: 0 10px;
+    height: 38px;
+    width: 400px;
+  }
+
+
+.btn-container button {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+      .img-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding-top: 50px;
+    }
+
+    .review p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .tech-card-container{
+    padding-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "headphone"
+    "phone"
+    "global"
+    "power"
+    "book";
+
+}
+.tech-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ .Episodes{
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .episodes-section{
+        padding: 0 10px;
+    }
+
+    .episodes-section h3{
+        font-size: 28px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .video-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        justify-items: center;
+    }
+
+    .Episodes,.techwave{
+        height: auto;
+    }
+
+    .host-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        height: auto;
+        padding: 40px 24px;
+        gap: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .logo-container{
+        justify-content: center;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #footer-img {
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 60px 20px;
+        top: 0;
+    }
+    #image {
+        top: 0;
+        margin-bottom: 40px;
+    }
+
+    .footer-logo-container {
+        top: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
+    }
+
+    .icon {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-top: 50px;
+    }
 }
