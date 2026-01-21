@@ -416,13 +416,11 @@ border-bottom: 1px solid gray;
 .common-btn:hover, .subscribe:hover, .menu li:hover, .icon:hover { transform: scale(1.05); }
 
 
-/* Short Animation Code */
 @keyframes float { 50% { transform: translateY(-12px); } }
 @keyframes pulse { 50% { transform: scale(1.1); } }
 
 .hero-circle { animation: float 3s ease-in-out infinite; }
 .new-badge   { animation: pulse 1.5s infinite; }
-
 
 
 
