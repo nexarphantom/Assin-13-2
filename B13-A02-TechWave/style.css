@@ -106,10 +106,22 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+  .new-badge{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background: linear-gradient(90deg, #00FF88 0%, #00C2FF 100%);
+    color: #1A0B2E;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 1%;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0, 255, 136, 0.3);
 }
 
 .hero-circle img{
@@ -353,12 +365,6 @@ border-bottom: 1px solid gray;
     object-fit: contain;
 }
 
-/* .footer-bg{
-    background-image: url(assets/footer-bg.png);
-    width: 1450px;
-    height: 412px;
-
-} */
  #footer-img{
     background-image: url(assets/footer-bg.png);
     height: 412px;
@@ -405,6 +411,17 @@ border-bottom: 1px solid gray;
     font-size: 1rem;
 }
 
+.common-btn, .subscribe, .menu li, .icon { cursor: pointer; transition: 0.3s; }
+
+.common-btn:hover, .subscribe:hover, .menu li:hover, .icon:hover { transform: scale(1.05); }
+
+
+/* Short Animation Code */
+@keyframes float { 50% { transform: translateY(-12px); } }
+@keyframes pulse { 50% { transform: scale(1.1); } }
+
+.hero-circle { animation: float 3s ease-in-out infinite; }
+.new-badge   { animation: pulse 1.5s infinite; }
 
 
 
